@@ -1,0 +1,417 @@
+/* Basic reset and typography */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo-placeholder {
+    width: 80px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Call to action button */
+.cta-button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    padding: 50px;
+}
+
+/* Hero section styling */
+.hero1{
+    margin-left: 20px;
+    display: flex;
+}
+.hero {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* Placeholder for additional content */
+.content-placeholder {
+    width: 450px;
+    
+    height: 450px;
+    background-color: #f7f7f7;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+/* Promo section styling */
+.promo {
+    margin-left: 20px;
+    background-color: #f7f7f7;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.promo-text h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.promo-text p {
+    margin: 0;
+    color: #777;
+}
+
+.promo-cta .cta-button {
+    background-color: #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* What we do section styling */
+.what-we-do {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we-do .left-column {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.what-we-do .right-column {
+    font-size: 20px;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.what-we-do h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.what-we-do p {
+    color: #777;
+    margin: 10px 0;
+}
+
+.what-we-do ul {
+    list-style: none;
+    padding: 0;
+}
+
+.what-we-do ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-placeholder {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+/* Featured section styling */
+.featured {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.featured p {
+    margin-left: 20px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.card-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.mission-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.mission-section h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.mission {
+    width: 25%;
+    text-align: left;
+}
+
+.image-placeholder {
+    border-radius: 4px;
+    width: 100%;
+    height: 60px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    size: 1cap;
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    width: 25%;
+}
+
+.newsletter {
+    width: 25%;
+}
+
+.newsletter input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+}
+.checkbox-footer{
+    
+    display: flex;
+}
+.checkbox1{
+    width: 20px;
+    height: 20px;
+}
+.footer-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+}
+
+.footer-bottom ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+/* Featured section styling */
+.featured {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.featured p {
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.card-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.privacy-policy{
+    align-items: center;
+}
